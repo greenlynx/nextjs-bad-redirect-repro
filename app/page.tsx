@@ -1,4 +1,9 @@
-/** Add your relevant code here for the issue to reproduce */
+import submitAction from "./submitAction";
+
 export default function Home() {
-  return null;
+  return (
+    <form action={submitAction}>
+      <button type="submit">Submit</button>
+    </form>
+  );
 }
